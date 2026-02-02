@@ -6,10 +6,15 @@ A Python-based web application that automatically transcribes audio files (songs
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 ![Whisper](https://img.shields.io/badge/OpenAI-Whisper-green.svg)
 
+## 🎬 Demo
+
+![Demo](hasil.gif)
+
 ## ✨ Features
 
 - **🎵 Multi-format Support**: Upload MP3, WAV, and M4A audio files
 - **🤖 Model Selection**: Choose between Whisper base, small, or medium models
+- **🌐 Language Selection**: Support for 17+ languages including Indonesian, English, Japanese, Korean, and more
 - **⏱️ Optional Timestamps**: Include timestamps in the generated lyrics
 - **🎚️ Vocal Isolation**: Optionally separate vocals from background music (requires Spleeter)
 - **📥 Easy Export**: Download lyrics as a clean `.txt` file
@@ -38,10 +43,11 @@ Download from [ffmpeg.org](https://ffmpeg.org/download.html) and add to PATH.
 
 ## 🚀 Quick Start
 
-### 1. Clone or Navigate to the Project
+### 1. Clone the Repository
 
 ```bash
-cd /media/dika/TEAM/GenerateLyrics
+git clone https://github.com/dikag0d/GenerateLyrics.git
+cd GenerateLyrics
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
